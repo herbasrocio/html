@@ -16,7 +16,7 @@ h1{
     color: #04146c;
     font-weight:900;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 } 
 h3{
     font-size: 20pt;
@@ -30,4 +30,5 @@ p{
     font-size: 18pt;
     color: #04146c;
     background-color:#edf7ff;
+    margin-top: 1%;
 }
