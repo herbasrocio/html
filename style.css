@@ -21,7 +21,8 @@ input{
     height: 50px;
     margin-bottom: 10px;
 }
-button{
+
+#enviar{
     font-family: 'Mulish';
     font-size: 23px;
     color: white;
