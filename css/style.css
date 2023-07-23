@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@font-face{
-    font-family: 'Roboto-Light';
-    src: url(/fuentes/Roboto-Light.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Coolvetica';
-    src: url(/fuentes/coolvetica-rg.woff) format(woff);
-}
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 
 *{
     font-family: 'Roboto';
@@ -16,45 +9,52 @@
     padding: 0;
 }
 h1 {
-    font-family: 'coolvetica';
-    font-size: 120px;
+    font-family: 'Roboto';
+    font-size: 64px;
     color: #0a2ff1;
-    font-weight:400;
-    margin-top: 3%;
+    font-weight:700;
+    margin-top: 20%;
     margin-bottom: 3%;
-    text-align: center;
 }
-p{
-    font-family: 'Roboto-Light';
+h2{
+    font-family: 'Roboto';
     color: #04146c;
-    font-size: 40px;
+    font-size: 32px;
     margin-bottom: 1%;
-    font-weight:400;
-    text-align: center;
+    font-weight:300;
     margin-bottom: 2%;
 }
-
-#azul{
-    background-color: #0a2ff1;
-    color: white;
-    width: 420px;
-    height: 75px;
-    font-size: 40px;
-    border: 3px solid #0a2ff1;
-    margin-bottom: 1%;
-}
-
-#blanco{
-    background-color: white;
+h3{
     color: #04146c;
-    width: 420px;
-    height: 75px;
-    font-size: 40px;
-    border: 3px solid #0a2ff1;
+    font-size: 16px;
+    margin-bottom: 1%;
+    font-weight:300;
+margin-top: 2%;
 }
 
-#botones-centro{
+#contenedor{
+    padding: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+#izquierda{
+    width: 420px;
+    height: 420px;
+    font-size: 40px;
+    margin-bottom: 1%;
+    margin: 1%;
+    
+}
+
+#derecha{
+    background-color: white;
+    width: 420px;
+    height: 420px;
+    font-size: 40px;
+    margin: 1%;
+    margin-left: 5%;
+
+}
+strong{
+    font-weight: 700;
 }
