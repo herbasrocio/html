@@ -10,6 +10,9 @@
     margin:0;
     padding: 0;
 }
+body{
+    padding: 1em;
+}
 h1 {
     font-family: 'Coolvetica';
     font-size: 120px;
@@ -20,46 +23,31 @@ h1 {
     margin-left: 2%;
 }
 h2{
-    color: #04146c;
-    font-size: 40px;
-    font-weight:300;
-    margin-bottom: 1%;
-    margin-left: 2%;
-
-}
-h3{
-    color: #04146c;
-    font-style: italic;
-    font-weight:300;
-    font-size: 24px;
-    margin-bottom: 5%;
-    margin-top: 2%;
-}
-h4{
-    color: #04146c;
+    color: #0a2ff1;
+    font-size: 30px;
     font-weight:900;
-    font-size: 24px;
-    margin-bottom: 5%;
-    margin-top: 1%;  
+    margin-bottom: 1%;
 }
 p{
     font-size: 24px;
     margin-top: 1%;
+    text-align: start;
 }
-strong{
-    font-weight: 700;
-}
+
 #contenedor{
-    padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 div{
     background-color: #eff2ff;
-    width: 25%;
-    margin: 2%;
-    padding: 2%;
+    width: 20%;
+    padding: 1em;
+    margin: 1%;
+    text-align: center
 }
 img{
-    width: 30%;
+    width: 25%;    
+}
+#apple{
+    width: 18%;
 }
