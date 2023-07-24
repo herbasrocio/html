@@ -1,11 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
-@font-face {
-    font-family: 'Coolvetica';
-    src: url(/fuente/coolvetica-rg.woff) format(woff);
-}
 *{
-    font-family: 'Roboto';
+    font-family: 'Mulish';
     font-weight:400;
     margin:0;
     padding: 0;
@@ -13,43 +9,61 @@
 body{
     padding: 1em;
 }
-h1 {
-    font-family: 'Coolvetica';
-    font-size: 120px;
+h2 {
+    font-family: 'Mulish';
+    font-size: 40px;
     color: #0a2ff1;
     font-weight:400;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    margin-left: 2%;
+  
 }
-h2{
+h1{
     color: #0a2ff1;
-    font-size: 30px;
+    font-size: 80px;
     font-weight:900;
     margin-bottom: 5%;
 }
 p{
     font-size: 24px;
+    color: #04146c;
     margin-top: 2%;
-    margin: 5%;
-    text-align: start;
+    margin-bottom: 5%;
 }
-
+strong{
+    font-weight: 700;
+}
+button{
+    background-color: #0a2ff1;
+    font-size: 29px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    height: 70px;
+    width: 400px;
+}
 #contenedor{
     display: flex;
     justify-content:center;
+    position: relative;
 }
 div{
-    background-color: #eff2ff;
-    width: 20%;
+    position: absolute;
+
+}
+#derecha{
+    right: 0%;
+    top: 300px;
+    width: 50%;
     margin: 1%;
-    text-align: center
 }
-img{
-    width: 25%;
-    margin-top: 5%;
-    margin-bottom: 3%;
+#izquierda{
+    left: 0px;
+    top: 250px;
+    width: 50%;
+    margin: 1%;
 }
-#apple{
-    width: 18%;
+#centro{
+position: fixed;
+left: 1025px;
+top: 150px;
+
 }
