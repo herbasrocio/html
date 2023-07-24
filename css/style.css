@@ -26,11 +26,12 @@ h2{
     color: #0a2ff1;
     font-size: 30px;
     font-weight:900;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
 }
 p{
     font-size: 24px;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin: 5%;
     text-align: start;
 }
 
@@ -41,12 +42,13 @@ p{
 div{
     background-color: #eff2ff;
     width: 20%;
-    padding: 1em;
     margin: 1%;
     text-align: center
 }
 img{
-    width: 25%;    
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 #apple{
     width: 18%;
